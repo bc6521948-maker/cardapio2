@@ -1,1 +1,148 @@
-# cardapio2
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cardápio Digital | Nome do Restaurante</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #111;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 26px;
+    }
+    header p {
+      margin: 5px 0 0;
+      font-size: 14px;
+      opacity: 0.9;
+    }
+    .container {
+      padding: 15px;
+      max-width: 700px;
+      margin: auto;
+    }
+    .category {
+      margin-top: 25px;
+    }
+    .category h2 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+      font-size: 20px;
+    }
+    .item {
+      display: flex;
+      justify-content: space-between;
+      background: #fff;
+      padding: 12px;
+      margin-top: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    .item-info {
+      max-width: 75%;
+    }
+    .item-info h3 {
+      margin: 0 0 5px;
+      font-size: 16px;
+    }
+    .item-info p {
+      margin: 0;
+      font-size: 13px;
+      color: #666;
+    }
+    .price {
+      font-weight: bold;
+      font-size: 16px;
+      color: #111;
+    }
+    .whatsapp {
+      position: fixed;
+      bottom: 15px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #25D366;
+      color: #fff;
+      padding: 15px 25px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    footer {
+      text-align: center;
+      font-size: 12px;
+      color: #888;
+      margin: 30px 0 80px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🍔 Nome do Restaurante</h1>
+  <p>📍 Endereço • ⏰ Horário • 📞 Telefone</p>
+</header>
+
+<div class="container">
+
+  <div class="category">
+    <h2>Lanches</h2>
+
+    <div class="item">
+      <div class="item-info">
+        <h3>X-Burger</h3>
+        <p>Pão, hambúrguer artesanal e queijo</p>
+      </div>
+      <div class="price">R$ 18,90</div>
+    </div>
+
+    <div class="item">
+      <div class="item-info">
+        <h3>X-Salada</h3>
+        <p>Hambúrguer, queijo, alface e tomate</p>
+      </div>
+      <div class="price">R$ 22,90</div>
+    </div>
+  </div>
+
+  <div class="category">
+    <h2>Bebidas</h2>
+
+    <div class="item">
+      <div class="item-info">
+        <h3>Refrigerante Lata</h3>
+        <p>Coca-Cola, Guaraná ou Fanta</p>
+      </div>
+      <div class="price">R$ 6,00</div>
+    </div>
+
+    <div class="item">
+      <div class="item-info">
+        <h3>Suco Natural</h3>
+        <p>Laranja, limão ou maracujá</p>
+      </div>
+      <div class="price">R$ 8,00</div>
+    </div>
+  </div>
+
+</div>
+
+<a class="whatsapp" href="https://wa.me/55SEUNUMERO" target="_blank">📲 Peça pelo WhatsApp</a>
+
+<footer>
+  <p>Cardápio digital • Fácil • Rápido • Sem aplicativos</p>
+</footer>
+
+</body>
+</html>
+
